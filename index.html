@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn&display=swap" rel="stylesheet">
+
+  <meta charset="utf-8">
+
+  <title>My first webpage in VSC</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+
+</head>
+
+<body>
+
+<div id="menus" class="overlay">
+   <a href="javascript:void(0)" class="close" onclick="closeMenu()">&times;</a>
+   <div class="overlay-content">
+     <a href="#">About</a>
+     <a href="#">Services</a>
+     <a href="#">Our Philosophy</a>
+     <a href="#">Contact</a>
+
+
+   </div>
+</div>
+
+   <section class="pageOne">
+     <nav>
+       <ul>
+          <li class="Home" onclick="openMenu()"> <i class="fas fa-bars"></i> </li>
+          <li class="Logo"> <i class="fas fa-chess-rook"></i> </li>
+        </ul>
+     </nav>
+     <h1 class="primaryHeading">AWS INTERIORS</h1>
+     <h2 class="secondaryHeading">Creating Homes Since 1950</h2>
+   </section>
+
+   <section class="pageTwo"> <span>Two</span> 
+   </section>
+
+</body>
+</html>
